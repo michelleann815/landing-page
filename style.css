@@ -30,3 +30,23 @@ a {
     color: #F9FAF8;
     margin: 10px;
 }
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF9;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.signupbtn {
+    border: none;
+    border-radius: 35px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px;
+    margin: 16px;
+}
