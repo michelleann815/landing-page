@@ -31,10 +31,30 @@ a {
     margin: 10px;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-dog {
+    border-radius: 35px;
+    width: 300px;
+    margin: 8px;
+    padding: 8px;
+}
+
 .hero {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF9;
+    margin: 8px;
 }
 
 .hero-secondary {
@@ -49,4 +69,5 @@ a {
     background-color: #3882F6;
     padding: 8px;
     margin: 16px;
+    width: 100px;
 }
