@@ -14,13 +14,19 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    margin: 8px;
 }
 
 .header, .main {
     background-color: #1F2937;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 10px;
 }
