@@ -71,3 +71,30 @@ a {
     margin: 16px;
     width: 100px;
 }
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+max-width: 200px;
+}
+
+.info-dog {
+    border-radius: 35px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.text {
+    text-align: center;
+}
