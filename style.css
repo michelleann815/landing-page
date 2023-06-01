@@ -1,7 +1,11 @@
 body {
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
+   flex-shrink: 1;
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin: 0;
+   padding: 0;
 }
 
 ul {
@@ -15,6 +19,20 @@ a {
     color: #E5E7EB;
     font-size: 18px;
     margin: 8px;
+}
+
+span {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 24px;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 4px;
 }
 
 .header, .main {
@@ -41,12 +59,13 @@ a {
 .hero-container {
     display: flex;
     flex-direction: column;
+    margin: 8px;
 }
 
 .hero-dog {
     border-radius: 35px;
     width: 300px;
-    margin: 8px;
+    margin: 16px;
     padding: 8px;
 }
 
@@ -100,20 +119,35 @@ max-width: 200px;
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    margin: 24px;
+    margin-top: 48px;
     padding: 8px;
 }
 
 .action {
     color: #F9FAF8;
+    align-self: center;
+    margin-top: 48px;
+    max-width: 800px;
 }
 
 .modal {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
     background-color: #3882F6;
+    max-width: 800px;
+    margin: 8px;
+    padding: 8px; 
+}
+
+#modalbtn {
+    align-self: flex-end;
 }
